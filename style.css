@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@media all{
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+
+h1{ font-family: 'Concert One', cursive;
+    font-size: max(18px,7vw); text-align: center; color: #023047;}
+
+h2{font-family: 'Courier New', Courier, monospace;
+    font-size: max(14px,4vw); text-align: center; color: #023047;}
+
+body{ background-color: black;}
+
+header{
+    display: flex; justify-content: space-between; align-items: center;
+    width: 100vw;    height: 20vh;
+    background-color: #FD9E02;}
+
+    header img{ width: max(35vw); height: 20vh;}
+
+section{ display: flex; flex-direction: column;
+        background-color: #219ebc;
+        padding: 5vh 5vh;}
+
+    .hangman__container{ display: flex; flex-direction: column; 
+                        justify-content: center; align-items: center;
+                        background-color: blanchedalmond ;
+                        height: 50vh; margin:2vh}
+        .hangman__container img{width: 100%; z-index: 1;}
+        .hangman__head{display: flex; background-color: brown; 
+                    height: 9vh; width: 9vh;
+                    border-radius: 100%;}
+        .hangman__body{display: flex; margin-top: 1vh;}
+            .hangman__arm_l{display: flex; background-color: brown; 
+                height: 18vh; width: 5vw;}
+            .hangman__chest{display: flex; background-color: brown; 
+                height: 18vh; width: 11vh; margin: 0 1vw;}
+            .hangman__arm_r{display: flex; background-color: brown; 
+                height: 18vh; width: 5vw;}
+        .hangman__legs{display: flex;}
+            .hangman__leg_l{display: flex; background-color: brown; 
+            height: 18vh; width: 5vh; margin-right: 1vh;}
+            .hangman__leg_r{display: flex; background-color: brown; 
+                height: 18vh; width: 5vh;}
+
+    .word{}
+
+    .resolve__container{}
+    
+    .button{}
+
+        .text{}
+
+        .check{}
+
+footer{}
+
+}
