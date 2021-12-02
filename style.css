@@ -6,55 +6,57 @@
     padding: 0;}
 
 h1{ font-family: 'Concert One', cursive;
-    font-size: max(18px,7vw); text-align: center; color: #023047;}
+    font-size: max(18px,6vw); text-align: center; color: #023047;}
 
-h2{font-family: 'Courier New', Courier, monospace;
-    font-size: max(14px,4vw); text-align: center; color: #023047;}
+h2,input{font-family: 'Courier New', Courier, monospace; font-weight: bold;
+    font-size: max(14px,3vw); text-align: center; color: #023047;}
 
 body{ background-color: black;}
 
 header{
-    display: flex; justify-content: space-between; align-items: center;
+    display: flex; justify-content: space-between;
     width: 100vw;    height: 20vh;
     background-color: #FD9E02;}
+    .title{display: flex; justify-content: center; align-items: center;
+            width: 70%;}
+    header img{ width: 30%; height: 20vh;}
 
-    header img{ width: max(35vw); height: 20vh;}
-
-section{ display: flex; flex-direction: column;
+section{ display: flex; flex-direction: column; align-items: center;
         background-color: #219ebc;
         padding: 5vh 5vh;}
 
     .hangman__container{ display: flex; flex-direction: column; 
                         justify-content: center; align-items: center;
-                        background-color: blanchedalmond ;
-                        height: 50vh; margin:2vh}
-        .hangman__container img{width: 100%; z-index: 1;}
+                        background-color: blanchedalmond; border-radius: 4vh;
+                        height: 40vh; width: 60vw; margin:2vh}
+        .hangman__container img{height: 100%; z-index: 1;}
         .hangman__head{display: flex; background-color: brown; 
-                    height: 9vh; width: 9vh;
+                    height: 7.2vh; width: 7.2vh;
                     border-radius: 100%;}
-        .hangman__body{display: flex; margin-top: 1vh;}
+        .hangman__body{display: flex; margin-top: 0.8vh;}
             .hangman__arm_l{display: flex; background-color: brown; 
-                height: 18vh; width: 5vw;}
+                height: 14.4vh; width: 4vh; border-radius: 2.2vh;}
             .hangman__chest{display: flex; background-color: brown; 
-                height: 18vh; width: 11vh; margin: 0 1vw;}
+                height: 14.4vh; width: 8.8vh; margin: 0 0.8vh;}
             .hangman__arm_r{display: flex; background-color: brown; 
-                height: 18vh; width: 5vw;}
+                height: 14.4vh; width: 4vh; border-radius: 2.2vh;}
         .hangman__legs{display: flex;}
             .hangman__leg_l{display: flex; background-color: brown; 
-            height: 18vh; width: 5vh; margin-right: 1vh;}
+            height: 14.4vh; width: 4vh; margin-right: 0.8vh;}
             .hangman__leg_r{display: flex; background-color: brown; 
-                height: 18vh; width: 5vh;}
+                height: 14.4vh; width: 4vh;}
 
-    .word{}
+    .word{ display: flex; width: 60vw; height: 20vh; padding: 1vh; margin: 1vh;
+            background-color: chartreuse;}
 
-    .resolve__container{}
+    .resolve__container{ display: flex; width: 60vw; justify-content: center; padding: 1vh; margin: 1vh;}
     
-    .button{}
+    .button__text{ width: 80%;}
+        #input__text, #button__check{width: 90%; height: 5vh; border-radius: 1vh; border-color: #023047; border-width: 0.5vh;}
+        #button__check{background-color: #126782;font-size: max(14px,2vw);}
+    .button__check{ width: 20%;}
 
-        .text{}
-
-        .check{}
-
-footer{}
+footer{ background-color: #023047;
+        height: 15vh;}
 
 }
