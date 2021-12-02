@@ -29,22 +29,15 @@ section{ display: flex; flex-direction: column; align-items: center;
                         justify-content: center; align-items: center;
                         background-color: blanchedalmond; border-radius: 4vh;
                         height: 40vh; width: 60vw; margin:2vh}
-        .hangman__container img{height: 100%; z-index: 1;}
-        .hangman__head{display: flex; background-color: brown; 
-                    height: 7.2vh; width: 7.2vh;
-                    border-radius: 100%;}
-        .hangman__body{display: flex; margin-top: 0.8vh;}
-            .hangman__arm_l{display: flex; background-color: brown; 
-                height: 14.4vh; width: 4vh; border-radius: 2.2vh;}
-            .hangman__chest{display: flex; background-color: brown; 
-                height: 14.4vh; width: 8.8vh; margin: 0 0.8vh;}
-            .hangman__arm_r{display: flex; background-color: brown; 
-                height: 14.4vh; width: 4vh; border-radius: 2.2vh;}
-        .hangman__legs{display: flex;}
-            .hangman__leg_l{display: flex; background-color: brown; 
-            height: 14.4vh; width: 4vh; margin-right: 0.8vh;}
-            .hangman__leg_r{display: flex; background-color: brown; 
-                height: 14.4vh; width: 4vh;}
+        .hangman__container img{height: 100%;}
+        #img0{display: flex;}
+        #img1{display: none;}
+        #img2{display: none;}
+        #img3{display: none;}
+        #img4{display: none;}
+        #img5{display: none;}
+        #img6{display: none;}
+        
 
     .word{ display: flex; width: 60vw; height: 20vh; padding: 1vh; margin: 1vh;
             background-color: chartreuse;}
