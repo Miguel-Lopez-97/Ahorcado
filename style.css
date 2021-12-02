@@ -14,12 +14,12 @@ h2,input{font-family: 'Courier New', Courier, monospace; font-weight: bold;
         color: black;
     }
 
-p{
+p{      font-family: 'Courier New', Courier, monospace; font-weight: bold;
+        font-size: max(14px,3vw);
         text-align: center;
-        color: black;
+        color:#023047;
         border-bottom: solid 2px black;
         width: 20px;
-        font-size: 20px;
  }
 
 body{ background-color: black;}
@@ -39,7 +39,8 @@ section{ display: flex; flex-direction: column; align-items: center;
     .hangman__container{ display: flex; flex-direction: column; 
                         justify-content: center; align-items: center;
                         background-color: #219EBC; border-radius: 4vh;
-                        height: 40vh; width: 60vw; margin:2vh;
+                        height: 40vh; width: 60vw; max-width: 800px;
+                        margin:2vh;
                         overflow: hidden;}
         .hangman__container img{height: 100%;}
         #img0{display: flex;}
@@ -51,21 +52,27 @@ section{ display: flex; flex-direction: column; align-items: center;
         #img6{display: none;}
         
 
-    .word{ display: flex; justify-content: space-evenly; width: 80vw; height: 20vh; padding: 1vh; margin: 1vh;
-            background-color: chartreuse; align-items: center;
-        
+    .word{ 
+        display: flex; justify-content: space-evenly; 
+        width: 80vw;max-width: 800px; height: 15vh; padding: 1vh; margin: 1vh;
+        background-color: #8ECAE6; align-items: center;        
         }
 
-    .resolve__container{ display: flex; width: 60vw; justify-content: center; padding: 1vh; margin: 1vh;}
+    .resolve__container{ 
+        display: flex; flex-direction: column; 
+        justify-content: center; align-items: center;
+        width: 100%; max-width: 800px;    padding: 1vh; margin: 1vh;}
     
     .button__text{ width: 80%;}
-        #input__text, #button__check{width: 90%; height: 5vh; border-radius: 1vh; border-color: #023047; border-width: 0.5vh;}
-        #button__check{background-color: #126782;font-size: max(14px,2vw);}
-    .button__check{ width: 20%;}
+        #input__text, #button__check, #button__reset{width: 90%; height: 5vh; border-radius: 1vh; border-color: #023047; border-width: 0.5vh;}
+        #button__check{width:45%;background-color: #126782;font-size: max(14px,2vw);}
+        #button__reset{width:45%;background-color: #126782;font-size: max(14px,2vw);}
+
+    .buttons{ display: flex;width: 80%;}
 
 footer{ display: flex; justify-content: space-around; align-items: center;
         background-color: #FD9E02;
-        height: 15vh;}
+        height: 18vh;}
         footer img{height: min(15vw,13vh);}
 
 }
