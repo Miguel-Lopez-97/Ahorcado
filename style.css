@@ -9,7 +9,7 @@ h1{ font-family: 'Concert One', cursive;
     font-size: max(18px,6vw); text-align: center; color: #023047;}
 
 h2,input{font-family: 'Courier New', Courier, monospace; font-weight: bold;
-    font-size: max(14px,3vw); text-align: center; color: #023047;}
+    font-size: max(14px,3vw); text-align: center; color: #8ECAE6;}
 
 body{ background-color: black;}
 
@@ -22,12 +22,12 @@ header{
     header img{ width: 30%; height: 20vh;}
 
 section{ display: flex; flex-direction: column; align-items: center;
-        background-color: #219ebc;
+        background-color: #023047;
         padding: 5vh 5vh;}
 
     .hangman__container{ display: flex; flex-direction: column; 
                         justify-content: center; align-items: center;
-                        background-color: blanchedalmond; border-radius: 4vh;
+                        background-color: #219EBC; border-radius: 4vh;
                         height: 40vh; width: 60vw; margin:2vh}
         .hangman__container img{height: 100%;}
         #img0{display: flex;}
