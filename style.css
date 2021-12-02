@@ -15,7 +15,7 @@ body{ background-color: black;}
 
 header{
     display: flex; justify-content: space-between;
-    width: 100vw;    height: 20vh;
+    width: 100%;    height: 20vh;
     background-color: #FD9E02;}
     .title{display: flex; justify-content: center; align-items: center;
             width: 70%;}
@@ -28,7 +28,8 @@ section{ display: flex; flex-direction: column; align-items: center;
     .hangman__container{ display: flex; flex-direction: column; 
                         justify-content: center; align-items: center;
                         background-color: #219EBC; border-radius: 4vh;
-                        height: 40vh; width: 60vw; margin:2vh}
+                        height: 40vh; width: 60vw; margin:2vh;
+                        overflow: hidden;}
         .hangman__container img{height: 100%;}
         #img0{display: flex;}
         #img1{display: none;}
@@ -49,7 +50,9 @@ section{ display: flex; flex-direction: column; align-items: center;
         #button__check{background-color: #126782;font-size: max(14px,2vw);}
     .button__check{ width: 20%;}
 
-footer{ background-color: #023047;
+footer{ display: flex; justify-content: space-around; align-items: center;
+        background-color: #FD9E02;
         height: 15vh;}
+        footer img{height: min(15vw,13vh);}
 
 }
