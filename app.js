@@ -24,6 +24,7 @@ let palabras = [
   "INDIGNACION",
   "MOSTACHO",
   "APREHENDER",
+  "HIPOPOTAMO",
 ];
 let palabra;
 let lineas = document.getElementsByClassName("word")[0];
