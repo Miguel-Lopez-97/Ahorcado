@@ -9,8 +9,9 @@ h1{ font-family: 'Concert One', cursive;
     font-size: max(18px,6vw); text-align: center; color: #023047;}
 
 h2,input{font-family: 'Courier New', Courier, monospace; font-weight: bold;
-    font-size: max(14px,3vw); text-align: center; color: #8ECAE6;}
+    font-size: max(20px,3vw); text-align: center; color: #8ECAE6;}
     input{
+
         color: black;
     }
 
@@ -21,6 +22,7 @@ p{      font-family: 'Courier New', Courier, monospace; font-weight: bold;
         border-bottom: solid 2px black;
         width: 20px;
  }
+
 
 body{ background-color: black;}
 
@@ -50,12 +52,13 @@ section{ display: flex; flex-direction: column; align-items: center;
         #img4{display: none;}
         #img5{display: none;}
         #img6{display: flex;}
+        #img7{display: none;}
         
 
     .word{ 
         display: flex; justify-content: space-evenly; 
         width: 80vw;max-width: 800px; height: 15vh; padding: 1vh; margin: 1vh;
-        background-color: #8ECAE6; align-items: center;        
+        background-color: #8ECAE6; align-items: center; border-radius: 7vh;       
         }
 
     .resolve__container{ 
@@ -65,14 +68,31 @@ section{ display: flex; flex-direction: column; align-items: center;
     
     .button__text{ width: 80%;}
         #input__text, #button__check, #button__reset{width: 90%; height: 5vh; border-radius: 1vh; border-color: #023047; border-width: 0.5vh;}
-        #button__check{width:45%;background-color: #126782;font-size: max(14px,2vw);}
-        #button__reset{width:45%;background-color: #126782;font-size: max(14px,2vw);}
+        #button__check,#button__reset{width:45%;background-color: #126782;font-size: max(14px,2vw); transition: 0.5s;}
+        #input__text{ height: 7vh; border: solid 6px #0497db;}
 
-    .buttons{ display: flex;width: 80%;}
+    .buttons{ display: flex;width: 80%; font-size: 4.5vh;}
+
+    .buttons #button__check:hover,#button__reset:hover{
+        cursor:pointer;
+        background-color: #072e3a;
+        color: white;
+        transition: 0.5s;
+    }
 
 footer{ display: flex; justify-content: space-around; align-items: center;
         background-color: #FD9E02;
         height: 18vh;}
         footer img{height: min(15vw,13vh);}
+
+        
+        footer a{
+            transition: 0.5s;
+        }
+
+        footer a:hover{
+        transition: 0.5s;
+        transform: scale(1.1)
+        }
 
 }

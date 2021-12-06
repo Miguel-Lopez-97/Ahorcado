@@ -16,7 +16,7 @@
     </header>
 
     <section>
-      <h2>Jugemos ahorcado</h2>
+      <h2>Juguemos Ahorcado</h2>
       <div class="hangman__container">
         <img id="img6" src="images/fondo_hangman.png" alt="" />
         <img id="img5" src="images/vida_1.png" />
@@ -25,20 +25,22 @@
         <img id="img2" src="images/vida_4.png" />
         <img id="img1" src="images/vida_5.png" />
         <img id="img0" src="images/vida_6.png" />
+        <img id="img7" src="images/vida_7.png" />
       </div>
       <h2 id="vidas"></h2>
       <div class="word"></div>
       <h2>Digite una letra, no olvide validarla</h2>
+      <h2 id="palabraGanada"></h2>
       <div class="resolve__container">
         <div class="button__text">
-          <input id="input__text" type="text" />
+          <input id="input__text" type="text" maxlength="1"/>
         </div>
         <div class="buttons">
           <button id="button__check" onclick="comprobarLetra()">Validar</button>
           <button id="button__reset" onclick="resetear()">Reset</button>
         </div>
       </div>
-      <h2 id="palabraGanada"></h2>
+      
     </section>
 
     <footer>
