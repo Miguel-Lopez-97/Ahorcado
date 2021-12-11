@@ -24,7 +24,7 @@ En el repositorio das click en el botón verde que dice code y seleccionas la ma
 
 ## Despliegue 📦
 
-_El despliegue de este proyecto se hizo en [**netlify**](https://juegoahorcadodiplo99.netlify.app/)
+_El despliegue de este proyecto se hizo en [**netlify**](https://juegoahorcadodiplo99.netlify.app/)_
 
 ## Construido con 🛠️
 
