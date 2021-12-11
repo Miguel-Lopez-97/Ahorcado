@@ -24,7 +24,7 @@ En el repositorio das click en el botón verde que dice code y seleccionas la ma
 
 ## Despliegue 📦
 
-_El despliegue de este proyecto se hizo en netlify https://juegoahorcadodiplo99.netlify.app/_
+_El despliegue de este proyecto se hizo en [**netlify**](https://juegoahorcadodiplo99.netlify.app/)_
 
 ## Construido con 🛠️
 
@@ -36,10 +36,10 @@ _El despliegue de este proyecto se hizo en netlify https://juegoahorcadodiplo99.
 
 _Equipo encargado del desarrollo Inicial_
 
-* **Miguel López** - *Front-end* - [Miguel-Lopez-97](https://github.com/Miguel-Lopez-97)
-* **Carlos Ferro** - *Front-end* - [CarlosPrentt](https://github.com/CarlosPrentt)
-* **Santiago López** - *Back-end* - [santilopezco](https://github.com/santilopezco)
-* **Cristian Montoya** - *Back-end* - [CristianMontoya98](https://github.com/CristianMontoya98)
+* **Miguel López** - *Front-end* - [**Miguel-Lopez-97**](https://github.com/Miguel-Lopez-97)
+* **Carlos Ferro** - *Front-end* - [**CarlosPrentt**](https://github.com/CarlosPrentt)
+* **Santiago López** - *Back-end* - [**Santilopezco**](https://github.com/santilopezco)
+* **Cristian Montoya** - *Back-end* - [**CristianMontoya98**](https://github.com/CristianMontoya98)
 
 ## Modificaciones Actuales ✒️
 
