@@ -9,7 +9,7 @@ h1{ font-family: 'Concert One', cursive;
     font-size: max(18px,6vw); text-align: center; color: #023047;}
 
 h2,input{font-family: 'Courier New', Courier, monospace; font-weight: bold;
-    font-size: max(20px,3vw); text-align: center; color: #8ECAE6;}
+    font-size: max(20px,1vw); text-align: center; color: #8ECAE6;}
     input{
 
         color: black;

@@ -3,40 +3,44 @@
 let mostrarVidas = document.getElementById("vidas");
 let vidas = 6;
 let palabras = [
-  "ELEFANTE",
-  "PANTERA",
-  "CARDIOLOGO",
-  "PROGRAMACION",
-  "ASESINO",
-  "CONDOR",
-  "INSTRUMENTO",
-  "PANTALLA",
-  "TECLADO",
-  "JAGUAR",
-  "PAPAGAYO",
-  "RINOCERONTE",
-  "MONOLITO",
-  "ANEMONA",
-  "PELICULA",
-  "MAPACHE",
-  "HIPOPOTAMO",
-  "VACACIONES",
-  "INDIGNACION",
-  "MOSTACHO",
-  "APREHENDER",
-  "HIPOPOTAMO",
+  ["ELEFANTE","ANIMAL TERRESTRE VIVO MAS GRANDE DE LA TIERRA"],
+  ["PANTERA","ANIMAL SALVAJE EMPARENTADO CON LOS FELINOS A VECES NEGRO AVECES ROSA"],
+  ["CARDIOLOGO","PROFESIONAL DE LA SALUD"],
+  ["PROGRAMACION","ACCIÓN DE REALIZAR CODIGO"],
+  ["ASESINO","PERSONA DELICTIVA"],
+  ["CONDOR","SIMBOLO DE LOS ANDES"],
+  ["INSTRUMENTO","OBJETO QUE PUEDE PRODUCIR SONIDO O ESTAR EN UN LABORATORIO"],
+  ["PANTALLA","ACCESORIO QUE PERMITE VISUALIZAR ALGO NO TANGIBLE"],
+  ["TECLADO","ACCESORIO QUE PERMITE INTERACUAR CON ALGO NO TANGIBLE"],
+  ["JAGUAR","ANIMAL SALVAJE EMPARENTADO CON LOS FELINOS CON LA MORDIDA MAS FUERTE REGISTRADA"],
+  ["PAPAGAYO","ANIMAL EXOTICO DE MUCHOS COLORES"],
+  ["RINOCERONTE","ANIMAL EN PELIGRO DE EXTINCIÓN FAMILIAR DEL UNICORNIO"],
+  ["MONOLITO","FORMACION SEDIMENTARIA POR MEDIO DE LA EVAPORACIÓN Y FILTRACIÓN"],
+  ["ANEMONA","ANIMAL QUE APARENTA SER UNA FLOR MARINA"],
+  ["PELICULA","ELEMENTO RECREATIVO QUE PERMITE UNA EXPERIENCIA INMERSIVA DE UNA HISTORIA"],
+  ["MAPACHE","ANIMAL LADRÓN"],
+  ["HIPOPOTAMO","EL ASESINO MAS GRANDE DE ÁFRICA DESPUES DEL MOSQUITO"],
+  ["VACACIONES","PERIODO DE TIEMPO SIN PREOCUPACIONES"],
+  ["INDIGNACION","SENTIMIENTO DE ENOJO Y RABIA FRENTE A LAS ACCIONES DEFRAUDADORAS DE LOS DEMAS"],
+  ["MOSTACHO","USADO POR LOS CUATES MEXICANOS"],
 ];
 let palabra;
 let lineas = document.getElementsByClassName("word")[0];
 let contador = 0;
 let bandera = false;
 let palabraG = document.getElementById("palabraGanada");
+let pista = document.getElementById("pista");
+let alte;
 
 generarPalabra();
 /* Función que genera una palabra aleatoria de el array de palabras,
 crea los elementos p para vacíos y luego los añade al div  */
 function generarPalabra() {
-  palabra = palabras[Math.floor(Math.random() * palabras.length)];
+  alte =Math.floor(Math.random()*palabras.length)
+  console.log(alte)
+
+  palabra = palabras[alte][0];
+  pista.innerHTML ="Hola tu pista es:  "+palabras[alte][1];
   for (let i = 0; i < palabra.length; i++) {
     let parrafo = document.createElement("p");
     parrafo.setAttribute("id", "p" + i);
@@ -82,6 +86,7 @@ function comprobarLetra() {
         if (!bandera) {
           palabraG.innerHTML = "CUIDADO, la letra es incorrecta";
           vidas--;
+          
 
           document.getElementById("img" + vidas).style.display = "flex";
           document.getElementById("img" + (vidas + 1)).style.display = "none";
