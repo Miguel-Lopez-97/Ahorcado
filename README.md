@@ -32,6 +32,11 @@ _El despliegue de este proyecto se hizo en [**netlify**](https://juegoahorcadodi
 * **CSS** - Estilos en cascada para estilizar la maquetación
 * **Javascript** - Lenguaje de programación utilizado para el procesamiento de la información y funcionamiento
 
+## Modificaciones Actuales ✒️
+
+* **Miguel López** - *Front-end & Back-end* - [Miguel-Lopez-97](https://github.com/Miguel-Lopez-97)
+
+
 ## Autores Iniciales ✒️
 
 _Equipo encargado del desarrollo Inicial_
@@ -40,9 +45,5 @@ _Equipo encargado del desarrollo Inicial_
 * **Carlos Ferro** - *Front-end* - [**CarlosPrentt**](https://github.com/CarlosPrentt)
 * **Santiago López** - *Back-end* - [**Santilopezco**](https://github.com/santilopezco)
 * **Cristian Montoya** - *Back-end* - [**CristianMontoya98**](https://github.com/CristianMontoya98)
-
-## Modificaciones Actuales ✒️
-
-* **Miguel López** - *Front-end & Back-end* - [Miguel-Lopez-97](https://github.com/Miguel-Lopez-97)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
